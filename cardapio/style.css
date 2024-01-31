@@ -1,37 +1,75 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     background-color: #f6f4f4;
 }
 
 #principal {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     color: #593E25;
 }
 
-#prato1 {
+#barra {
     background-color: white;
     border: 1px solid #f6f4f4;
     height: 135px;
     width: 800px;
     border-radius: 5px;
-    display: flex;
     margin: 0px auto;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-#prato1:hover {
+#barra:hover {
     background-color: rgba(127, 255, 212, 0.397);
 }
 
-.cardapi {
-    text-align: center;
+#barra1 {
+    background-color: white;
+    border: 1px solid #f6f4f4;
+    height: 135px;
+    width: 800px;
+    margin: 0px auto;
+    border-top-left-radius: 40px 40px;
+    border-top-right-radius: 40px 40px;
+}
+
+#barra1:hover {
+    background-color: rgba(127, 255, 212, 0.397);
 }
 
 #sub {
     display: block;
-    font-family: Arial, Helvetica, sans-serif;
     color: #593E25;
     display: block;
-    margin-inline-start: 545px;
+    margin-left: 547px;
+    
   
+}
+
+#precos {
+    font-weight: bolder;
+    margin-left: 15px;
+}
+
+#prato {
+    margin-left: 15px;
+}
+
+#desc {
+    margin-left: 15px;   
+}
+
+footer {
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 5%;
+    left: 935px;
+    top: 1427px;
+    
 }
